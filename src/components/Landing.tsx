@@ -21,19 +21,21 @@ const Landing = ({ children }: PropsWithChildren) => {
             </h1>
           </div>
           <div className="landing-info">
-            <h3>An</h3>
-            <h2 className="landing-info-h2">
-              <div className="landing-h2-1">AI Engineer</div>
-            </h2>
-            <h2>
-              <div className="landing-h2-info">Full-Stack Developer</div>
-            </h2>
-          </div>
+    <h3>A</h3>
+
+    <h2 className="landing-info-h2">
+        <div className="landing-h2-1">CSE STUDENT</div>
+    </h2>
+
+    <h2>
+        <div className="landing-h2-info">&amp; C++ DEVELOPER</div>
+    </h2>
+</div>
           {/* Mobile photo - shows only on mobile when 3D character is hidden */}
           <div className="mobile-photo">
             <img
               src="/images/mypicnbg.png"
-              alt="Redoyanul Haque"
+              alt="Mohit Chandra"
               loading="eager"
               fetchPriority="high"
               decoding="async"
